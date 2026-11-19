@@ -1,6 +1,6 @@
 from calculator import add, subtract, multiply, divide, circleArea
 
-def test_circleArea(r):
+def test_circleArea():
 	assert circleArea(-4) == "Error"
 
 def test_add():

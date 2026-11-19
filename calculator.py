@@ -6,7 +6,7 @@ def circleArea(r):
 	if r >= 0:
 		return 3.14 * r * r
 	else:
-		return "NaN"
+		return "Error"
 
 def add(a, b):
 	return a + b
