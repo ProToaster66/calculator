@@ -1,5 +1,13 @@
 # SCCM4910 lab project - a four-operation calculator
 
+r = 0
+
+def circleArea(r):
+	if r >= 0:
+		return 3.14 * r * r
+	else:
+		return "NaN"
+
 def add(a, b):
 	return a + b
 
